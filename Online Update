@@ -1,1 +1,71 @@
-hshsbsbsjdvijaysnsjijdjdjjsjsjsjsjjdjdndn
+Success Installation
+
+ Service Ports:
+
+ OpenSSH: 22, 225
+
+ Stunnel: 443, 144
+
+ DropbearSSH: 900, 990
+
+ Privoxy: 6969, 9696
+
+ Squid: 8000, 8118
+
+ OpenVPN: 110, 25222, 1194, 69
+
+ NGiNX: 86
+
+ DNS: slowdnsv6.ws.origenesdev.codes
+
+YOUR KEY: 47f50d5fc743190a8cb0f06592c377ca0cd84135416d5c5cd912bd2214c5b76a
+
+YOUR NAMESERVER: nsv6.ws.origenesdev.codes
+
+ OpenVPN Configs Download site
+
+ http://174.138.26.102:86
+
+Please RUN this code after installation to finish SLOWDNS installation:
+
+curl -sO https://raw.githubusercontent.com/xamjyss143/slow-dns/main/scripts/slowdns && chmod +x slowdns && ./slowdns nsv6.ws.origenesdev.codes 47f50d5fc743190a8cb0f06592c377ca0cd84135416d5c5cd912bd2214c5b76a
+
+RUN this code to show your Nameserver and Chave:
+
+cat /etc/slowdns/infons /root/server.pub
+
+Success Installation
+
+ Service Ports:
+
+ OpenSSH: 22, 225
+
+ Stunnel: 443, 144
+
+ DropbearSSH: 900, 990
+
+ Privoxy: 6969, 9696
+
+ Squid: 8000, 8118
+
+ OpenVPN: 110, 25222, 1194, 69
+
+ NGiNX: 86
+
+ DNS: sg2v6.ws.origenesdev.codes
+
+YOUR KEY: d762027de1251b172b16beb70964dd7a36c1467430fbb7953a874ea2bb46a84b
+
+YOUR NAMESERVER: x3nsv6.ws.origenesdev.codes
+
+ OpenVPN Configs Download site
+
+ http://139.59.255.11:86
+
+Please RUN this code after installation to finish SLOWDNS installation:
+
+curl -sO https://raw.githubusercontent.com/xamjyss143/slow-dns/main/scripts/slowdns && chmod +x slowdns && ./slowdns x3nsv6.ws.origenesdev.codes d762027de1251b172b16beb70964dd7a36c1467430fbb7953a874ea2bb46a84b
+
+RUN this code to show your Nameserver and Chave:
+
+cat /etc/slowdns/infons /root/server.pub
